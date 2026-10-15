@@ -18,10 +18,16 @@ The OWASP Mobile Application Security Verification Standard (MASVS) is a securit
 Resource: OWASP MASVS - https://mas.owasp.org/MASVS/
 
 ## Networking
+BGP route hijacking occurs when an unauthorized network falsely announces IP address routes, causing internet traffic to be redirected to the wrong destination. RPKI helps prevent this by using cryptographically signed Route Origin Authorizations (ROAs) to verify which network is allowed to announce an IP prefix. However, standard RPKI origin validation does not verify the entire network path or prevent route leaks and IP packet spoofing, so additional security measures are needed.
+Resource: NIST SP 800-189 – https://csrc.nist.gov/pubs/sp/800/189/final
 
 ## Cybersecurity
+Log4Shell (CVE-2021-44228) was a critical security flaw in Apache Log4j2, a Java library utilized for recording application events. This vulnerability enabled attackers to remotely execute harmful code by sending specially crafted input to affected applications. With a CVSS score of 10.0, the highest possible severity rating, this issue posed a significant threat to system integrity. Apache resolved the problem by deactivating lookups by default in version 2.15.0 and eliminating JNDI lookup capabilities in version 2.16.0.
+Resource: NVD – CVE-2021-44228: https://nvd.nist.gov/vuln/detail/CVE-2021-44228
 
 ## Data
+A Software Bill of Materials (SBOM) is a formal record listing the software components, libraries, and dependencies used to build a software product. It improves software supply chain transparency and helps organizations identify vulnerable components. According to NTIA, the minimum required elements include supplier name, component name, component version, other unique identifiers, dependency relationships, SBOM author, and timestamp. These details help organizations track software components and manage security risks more effectively.
+Resource: NTIA – The Minimum Elements for a Software Bill of Materials (SBOM) – https://www.ntia.gov/report/2021/minimum-elements-software-bill-materials-sbom
 
 ## Misconception in My Track
 
