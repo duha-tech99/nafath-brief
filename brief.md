@@ -30,5 +30,9 @@ A Software Bill of Materials (SBOM) is a formal record listing the software comp
 Resource: NTIA – The Minimum Elements for a Software Bill of Materials (SBOM) – https://www.ntia.gov/report/2021/minimum-elements-software-bill-materials-sbom
 
 ## Misconception in My Track
+**Misconception: Good Programmers Must Memorize All Coding Syntax**
+Many people believe that good programmers must memorize every programming language syntax and function. However, this is not true, Programming involves problem-solving and understanding how to build solutions, not just memorizing code. According to MDN Web Docs, professional web developers regularly use documentation to look up information they have forgotten.Programmers should therefore focus on understanding concepts, solving problems, testing their code, and learning how to find reliable information when needed.
+Source: MDN Web Docs - Research and learning - https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Soft_skills/Research_and_learning
 
 ## Open Question
+How can software developers design scalable and secure applications that maintain high performance as the number of users and amount of data increase?
